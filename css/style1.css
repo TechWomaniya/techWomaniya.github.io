@@ -1,0 +1,167 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cabin Sketch";
+  text-transform: none;
+}
+body {
+  font-family: Ubuntu;
+}
+.gallery a img:hover,
+.navbar-nav a img:hover,
+.gallery a img:focus,
+.navbar-nav a img:focus,
+.gallery a img:active,
+.navbar-nav a img:active {
+  cursor: pointer;
+  box-shadow: 0 0 10px 3px #5EA0B0;
+  border-radius: 20px;
+}
+@media (min-width: 768px) {
+  header .container {
+    padding-top: 150px;
+  }
+  .navbar-fixed-top {
+    padding: 10px 0;
+  }
+}
+.ada {
+  font-family: Comfortaa !important;
+  text-transform: lowercase !important;
+  font-weight: 300 !important;
+}
+.ada strong {
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+}
+.ada-intro {
+  font-size: 30px;
+}
+.logo {
+  width: 80%;
+}
+.navbar {
+  font-family: Ubuntu;
+}
+.navbar-default {
+  background-color: #9BDAE1;
+  background: linear-gradient(160deg,#02ccba,#a056a0);
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+  background-color: rgba(255,255,255,0.35);
+}
+.navbar-default .navbar-nav li a:hover {
+  color: #5EA0B0;
+}
+.navbar-default .navbar-nav li.active a {
+  border-radius: 10px;
+}
+.navbar-default .navbar-nav li.active a:hover,
+.navbar-default .navbar-nav li.active a:focus {
+  border-radius: 10px;
+}
+.navbar-default .navbar-nav .change-lang a {
+  background-color: transparent;
+  float: left;
+}
+.navbar-default .navbar-nav .change-lang a:not(:first-child) {
+  padding-left: 5px;
+}
+.navbar-default .navbar-nav .change-lang a:hover,
+.navbar-default .navbar-nav .change-lang a:focus {
+  background-color: transparent;
+}
+.navbar-default .navbar-nav .change-lang a img {
+  width: 20px;
+}
+.navbar-default .navbar-nav .change-lang a img:hover,
+.navbar-default .navbar-nav .change-lang a img:focus,
+.navbar-default .navbar-nav .change-lang a img:active {
+  border-radius: 100px !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  border-color: #2B3E50;
+  background-color: #2B3E50;
+}
+.navbar-default .navbar-brand:hover{
+  color: #5EA0B0;
+}
+.email {
+  text-decoration: underline;
+}
+#code ul {
+  list-style-type: disc;
+  font-size: 18px;
+}
+#about .portfolio-link img {
+  width: 100px;
+}
+.member {
+  margin-bottom: 25px;
+}
+.event-title {
+  font-weight: bold;
+  margin-top: 10px;
+  min-height: 42px;
+}
+.event-modal a {
+  color: inherit;
+  text-decoration: underline;
+}
+.bcnjs img {
+  width: 20%;
+}
+.meetup-logo {
+  width: 30%;
+  margin-top: 15px;
+}
+.coming-soon {
+  position: absolute;
+  pointer-events: none;
+  top: 45%;
+  width: 100%;
+  -ms-transform: rotate(-15deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-15deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-15deg);
+}
+.coming-soon span {
+  font-family: "Special Elite", cursive;
+  font-weight: bold;
+  color: crimson;
+  font-size: 24px;
+  border: 2px dashed crimson;
+  padding: 5px 10px;
+}
+.justify {+
+  text-align: justify;
+}
+.center {
+  text-align: center;
+}
+.portfolio-link .img-thumbnail {
+  max-height: 207px;
+}
+@media (min-width: 768px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    margin-top: -60px;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-nav {
+    margin-top: 0;
+  }
+}

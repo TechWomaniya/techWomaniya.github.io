@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/materialize.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet'>
+    <title>TechWomaniya</title>
+    <link rel="icon" href="images/tw_title_bar_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+    <script src="./js/jquery_min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+     <!--nav  -->
+    <nav id="nav_f" class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html"><img src="images/TW_logo_2.png" width="125px" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <ul class="navbar-nav">
+            <li><a class = "nav-item nav-link" href="index.html">Home<span class="sr-only">(current)</span></a> </li>
+            <li class="dropdown">
+               <a class="nav-item nav-link  dropdown-toggle" href="aboutUs.html" data-toggle="dropdown">About Us</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="aboutUs.html#intro"> Mission/Research</a></li>
+                    <li><a class="dropdown-item" href="aboutUs.html#team"> Team </a></li>
+                </ul>
+            </li>
+            <li><a class="nav-item nav-link" href="Resources.html"> Resources </a></li>
+            <li class="dropdown">
+               <a class="nav-item nav-link  dropdown-toggle" href="getInvolved.html" data-toggle="dropdown">Get Involved</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="getInvolved.html#club"> Start a Club</a></li>
+                    <li><a class="dropdown-item" href="getInvolved.html#fundraise"> Fundraise </a></li>
+                    <!-- <li><a class="dropdown-item" href="getInvolved.html#campaign"> Campaigns </a></li> -->
+                </ul>
+            </li>
+            <!-- <li><a class="nav-item nav-link" href="donate.html">Donate</a></li> -->
+            <li><a class="nav-item nav-link active" href="contact.html">Contact Us</a></li>
+        </ul>
+
+        <!--<div class="navbar-nav">
+          <a class="nav-item nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="Resources.html">Resources</a>
+          <a class="nav-item dropdown">
+           <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown">Get Involved</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+            </ul>
+          </a>
+
+          <a class="nav-item nav-link" href="#intro">Mission</a>
+          <a class="nav-item nav-link" href="#events">Events</a>
+          <a class="nav-item nav-link" href="aboutUs.html">About Us</a>
+          <a class="nav-item nav-link" href="contact.html">Donate</a>
+          <a class="nav-item nav-link" href="contact.html">Contact Us</a>
+        </div>-->
+      </div>
+    </nav>
+  <!-- main -->
+  <main class="row"> 
+    <img class="resize col-lg" src='images/sync.jpg'  alt="contact pic" >  
+    <form class="col-lg" id="contact" action="" method="post" data-netlify="true">
+      <h3>Sign up</h3>    
+      <h4>Come join us in the revolution!</h4>
+      <fieldset>
+        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Email Address" type="email" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Are you a student or a working professional" type="text" tabindex="3" required>
+      </fieldset>
+      <fieldset> 
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+      <p id="thanks-msg" class="text-center">Thank you, your response has been sent.</p>
+    </form> 
+</main>
+<footer>
+  <img src="images/TW_logo_2.png" alt="logo" width="150px">
+  <div style ="color: #9C0757">Follow Us On: 
+    <a href="https://www.linkedin.com/company/35926794/admin/" target="_blank"><i class="fa fa-linkedin" style="font-size:24px;color:#AF3164"></i></a>
+    <a href="https://www.facebook.com/pages/category/Community/TechWomaniya-558294894580350/" target="_blank"><i class="fa fa-facebook-square" style="font-size:24px;color:#AF3164"></i></a> 
+    <a href="https://twitter.com/techwomaniyaa" target="_blank"><i class="fa fa-twitter-square" style="font-size:24px;color:#AF3164"></i></a>
+    <a href="https://github.com/TechWomaniya/Tech-Womaniya" target="_blank"><i class="fa fa-github" style= "font-size:24px;color:#AF3164"></i></a>
+    </div> 
+</footer>
+
+</body>
+</html>
